@@ -38,6 +38,6 @@ print(waypoint.name, waypoint.lat, waypoint.lon)
 # Make a new geocache "Newberry Views", diff 1.5, size 2, 44.052137, -121.41556
 
 # YOUR CODE HERE
-geocache = Geocache("Newberry Views", 'difficulty 1.5', 'size 2', 44.052137, -121.41556)
+geocache = Geocache("Newberry Views", 1.5, 2, 44.052137, -121.41556)
 # Print it--also make this print more nicely
-print(geocache.name, geocache.difficulty, geocache.size, geocache.lat, geocache.lon)
+print("Name: ", geocache.name,"\nDifficulty: ", geocache.difficulty, "\nSize: ", geocache.size, "\nLat: ", geocache.lat, "\nlong: ", geocache.lon)
