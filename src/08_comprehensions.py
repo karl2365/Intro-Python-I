@@ -11,14 +11,20 @@ for more info regarding list comprehensions.
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = []
-
+x = 1
+while x <= 5:
+    y.append(x)
+    x += 1
 print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 y = []
-
+x = 0
+while x <= 9:
+    y.append(x ** 3)
+    x += 1
 print(y)
 
 # Write a list comprehension to produce the uppercase version of all the
@@ -27,7 +33,8 @@ print(y)
 a = ["foo", "bar", "baz"]
 
 y = []
-
+for value in a:
+    y.append(value.upper())
 print(y)
 
 # Use a list comprehension to create a list containing only the _even_ elements
