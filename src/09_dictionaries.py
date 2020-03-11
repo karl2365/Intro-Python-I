@@ -46,9 +46,9 @@ waypoints.append({
 # waypoints list.
 
 # YOUR CODE HERE
-#for value in waypoints:
-#    if value[name] == 'a place':
-#        value[name] = 'not a real place'
+for value in waypoints:
+    if value["name"] == 'a place'
+        value["name"] = 'not a real place'
 
 
 # Write a loop that prints out all the field values for all the waypoints

@@ -19,4 +19,8 @@ print("x is %2d, y is %2.2f, z is %s" % (x, y, z))
 
 # Use the 'format' string method to print the same thing
 
+print("x is {0:d}, y is {1:.2f}, z is {2}".format(x, y, z))
+
 # Finally, print the same thing using an f-string
+
+print(f"x is {x:d}, y is {y:.2f}, z is {z}")
